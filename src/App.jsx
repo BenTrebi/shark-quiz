@@ -1,19 +1,15 @@
 import React from 'react'
 import Header from './components/Header/header.jsx'
 import Footer from './components/Footer/footer.jsx'
-import Question from './components/Question/question.jsx'
-import Image from './components/Image/image.jsx'
-import Options from './components/Options/options.jsx'
-
+import { sharkQuiz } from './quiz.js'
+import Quiz from './components/Quiz/quiz.jsx'
 
 function App() {
 
   return (
     <>
       <Header />
-      <Question />
-      <Image />
-      <Options />
+      <Quiz questions={sharkQuiz.questions} />
       <Footer />
     </>
   )
