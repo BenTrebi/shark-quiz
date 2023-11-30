@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { resultInitialState } from '../../quiz.js'
-
+import Result from '../Result/result.jsx'
 
 
 const Quiz = ({questions}) =>  {
@@ -72,23 +72,10 @@ const Quiz = ({questions}) =>  {
             {currentQuestion === questions.length -1 ? "Finish": "Next"}
           </button>
         </div>
-        </>) : <div className="result">
-          <h3>Result</h3>
-          <p>
-            Total Questions: <span>{questions.length}</span>
-          </p>
-          <p>
-            Total Score: <span>{result.score}</span>
-          </p>
-          <p>
-            Correct Answers: <span>{result.correctAnswers}</span>
-          </p>
-          <p>
-            Wrong Answers: <span>{result.wrongAnswers}</span>
-          </p>
-          <button onClick={onTryAgain}>Try Again</button>
-           
-          </div>}
+        </>
+        ) : (
+          <Result result={result} onTryAgain={onTryAgain} totalQuestions={questions.length}/>
+        )}
       
     </div>
   );
