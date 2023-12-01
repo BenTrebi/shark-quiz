@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { resultInitialState } from '../../quiz.js'
 import Result from '../Result/result.jsx'
+import './quiz.css'
 
 
 const Quiz = ({questions}) =>  {
@@ -53,7 +54,7 @@ const Quiz = ({questions}) =>  {
         <span className="active-question">{currentQuestion + 1}</span>
         <span className="total-question">/{questions.length}</span>
         <h2>{question}</h2>
-        <img alt='img' src={cover} ></img>
+        <img alt='img' src={cover} className="sharkImg"></img>
         <ul>
           {
             choices.map((choice, index) => (
@@ -67,8 +68,8 @@ const Quiz = ({questions}) =>  {
             ))
           }
         </ul>
-        <div className="footer">
-          <button onClick={onClickNext} disabled={answerIdx === null}>
+        <div className="button">
+          <button className="nxtBtn" onClick={onClickNext} disabled={answerIdx === null} >
             {currentQuestion === questions.length -1 ? "Finish": "Next"}
           </button>
         </div>
@@ -76,7 +77,6 @@ const Quiz = ({questions}) =>  {
         ) : (
           <Result result={result} onTryAgain={onTryAgain} totalQuestions={questions.length}/>
         )}
-      
     </div>
   );
 };
