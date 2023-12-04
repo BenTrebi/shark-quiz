@@ -1,6 +1,7 @@
 body  {
   width: 100%;
-  background-color: rgb(60, 60, 60);
+  color: antiquewhite;
+  background-color: #121212;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,8 +24,9 @@ body  {
 
 
 .sharkImg {
-  height: 350px;
-  width: 500px;
+  height: 250px;
+  width: 400px;
+  margin-top: 15px;
 }
 
 ul  {
@@ -52,7 +54,7 @@ li:hover  {
 }
 
 .selected-answer  {
-  background-color: blue;
+  background-color: rgba(128, 128, 128, 0.267);
   font-weight: 800;
 }
 
@@ -64,12 +66,14 @@ li:hover  {
   border-radius: 16px;
   height: 25px;
   width: 200px;
-  background-color: rgb(60, 60, 60);
+  background-color: #121212;
   cursor: pointer;
+  color: antiquewhite;
 } 
 
 button:disabled  {
 cursor: not-allowed;
+color: rgba(250, 235, 215, 0.123);
 }
 
 
