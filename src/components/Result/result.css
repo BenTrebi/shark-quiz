@@ -1,0 +1,52 @@
+.result   {
+  color: antiquewhite;
+  background: #121212;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger
+}
+
+
+.results  {
+  font-size: large;
+  font-weight: 500;
+}
+
+
+.tryAgainBtn  {
+  color: antiquewhite;
+  background: #121212;
+  width: 100px;
+  border: antiquewhite solid 1px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.tryAgainBtn:hover  {
+  font-weight: 800;
+}
+
+.input  {
+  background: antiquewhite;
+  color: #121212;
+  padding: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+  font-size: medium;
+}
+
+.saveBtn  {
+  margin-left: 15px;
+  color: antiquewhite;
+  background: #121212;
+  width: 100px;
+  border: antiquewhite solid 1px;
+  padding: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.saveBtn:hover  {
+  font-weight: 800;
+}

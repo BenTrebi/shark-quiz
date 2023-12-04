@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import './result.css'
 
 
 const Result = ({totalQuestions, result, onTryAgain}) =>  {
@@ -38,28 +39,29 @@ const Result = ({totalQuestions, result, onTryAgain}) =>  {
 
   return  (
   <div className="result">
-    <h3>Result</h3>
-    <p>
+    <h2>Result</h2>
+    <p className="results">
     Total Questions: <span>{totalQuestions}</span>
    </p>
-    <p>
+    <p className="results">
     Total Score: <span>{result.score}</span>
     </p>
-   <p>
+   <p className="results">
     Correct Answers: <span>{result.correctAnswers}</span>
     </p>
-   <p>
+   <p className="results">
     Wrong Answers: <span>{result.wrongAnswers}</span>
     </p>
-    <button onClick={onTryAgain}>Try Again</button>
+    <button className= 'tryAgainBtn' onClick={onTryAgain}>Try Again</button>
    {!showScores ? <>
     <h3>
       Enter your name below to save your score!
     </h3>
     <input 
+    className="input"
     value={name} 
     onChange={(evt) => setName(evt.target.value)} />
-    <button onClick={handleSave}>Save</button>
+    <button className= 'saveBtn' onClick={handleSave}>Save</button>
    </> :  <>
    <table>
     <thead>
