@@ -286,6 +286,110 @@ export const sharkQuiz =  {
       correctAnswer: "Dusky shark",
       cover: "https://upload.wikimedia.org/wikipedia/commons/d/d3/Carcharhinus_obscurus_at_Seaworld.jpg",
     },
+    {
+      question:
+      "What type of shark is this?",
+      choices:  [
+        "Bull shark",
+        "Tiger shark",
+        "Bonnethead shark",
+        "Goblin shark",
+      ],
+      type: "MCQs",
+      correctAnswer: "Goblin shark",
+      cover: "https://outforia.com/wp-content/uploads/2021/11/Types-of-sharks-goblin-shark-1121.webp",
+    },
+    {
+      question:
+      "What type of shark is this?",
+      choices:  [
+        "Goblin shark",
+        "Sandbar shark",
+        "Bonnethead shark",
+        "Leopard shark",
+      ],
+      type: "MCQs",
+      correctAnswer: "Bonnethead shark",
+      cover: "https://outforia.com/wp-content/uploads/2021/11/Types-of-bonnethead-shark-1121.webp",
+    },
+    {
+      question:
+      "What type of shark is this?",
+      choices:  [
+        "Goblin shark",
+        "Blacktip shark",
+        "Tiger shark",
+        "Leopard shark",
+      ],
+      type: "MCQs",
+      correctAnswer: "Leopard shark",
+      cover: "https://outforia.com/wp-content/uploads/2021/11/Types-of-sharks-leopard-shark-1121.webp",
+    },
+    {
+      question:
+      "What type of shark is this?",
+      choices:  [
+        "Horn shark",
+        "Bull shark",
+        "Greenland shark",
+        "Nurse shark",
+      ],
+      type: "MCQs",
+      correctAnswer: "Horn shark",
+      cover: "https://outforia.com/wp-content/uploads/2021/11/Types-of-sharks-horn-shark-1121.webp",
+    },
+    {
+      question:
+      "What type of shark is this?",
+      choices:  [
+        "Thresher shark",
+        "Sand tiger shark",
+        "Lemon shark",
+        "Dusky shark",
+      ],
+      type: "MCQs",
+      correctAnswer: "Thresher shark",
+      cover: "https://seagrant.oregonstate.edu/sites/seagrant.oregonstate.edu/files/common-thresher-shark-rafi-amar-flickr-900x591.jpg",
+    },
+    {
+      question:
+      "What type of shark is this?",
+      choices:  [
+        "Thresher shark",
+        "Bull shark",
+        "Sand bar shark",
+        "Galapagos shark",
+      ],
+      type: "MCQs",
+      correctAnswer: "Galapagos shark",
+      cover: "https://cdn.britannica.com/65/222665-050-844917D4/Galapagos-shark-Pacific-Ocean.jpg",
+    },
+    {
+      question:
+      "What type of shark is this?",
+      choices:  [
+        "Blacktip reef shark",
+        "Caribbean reef shark",
+        "Tiger shark",
+        "Whale shark",
+      ],
+      type: "MCQs",
+      correctAnswer: "Caribbean reef shark",
+      cover: "https://upload.wikimedia.org/wikipedia/commons/e/ee/Haai11.jpg",
+    },
+    {
+      question:
+      "What type of shark is this?",
+      choices:  [
+        "Nurse shark",
+        "Tiger shark",
+        "Pyjama shark",
+        "Leopard shark",
+      ],
+      type: "MCQs",
+      correctAnswer: "Pyjama shark",
+      cover: "https://upload.wikimedia.org/wikipedia/commons/3/31/Poroderma_africanum.jpg",
+    },
   ]
 };
 
