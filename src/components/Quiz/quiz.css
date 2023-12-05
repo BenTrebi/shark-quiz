@@ -27,6 +27,7 @@ body  {
   height: 250px;
   width: 400px;
   margin-top: 15px;
+  border: antiquewhite 1px solid;
 }
 
 ul  {

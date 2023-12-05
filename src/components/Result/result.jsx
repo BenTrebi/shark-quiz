@@ -63,13 +63,14 @@ const Result = ({totalQuestions, result, onTryAgain}) =>  {
     onChange={(evt) => setName(evt.target.value)} />
     <button className= 'saveBtn' onClick={handleSave}>Save</button>
    </> :  <>
-   <table>
-    <thead>
+   <table className="rankingTable">
+    <thead >
       <tr>
           <th>Ranking</th>
           <th>Name</th>
           <th>Score</th>
       </tr>
+      </thead>
       <tbody>
           {highScores.map((highScores, i) => {
             return (
@@ -81,7 +82,6 @@ const Result = ({totalQuestions, result, onTryAgain}) =>  {
             );
           })}
       </tbody>
-    </thead>
    </table>
    </>}
 
