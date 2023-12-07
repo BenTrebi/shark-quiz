@@ -1,8 +1,14 @@
-# React + Vite
+Description
+This quiz application was built in order to better understand React. It was built using React, Javascript, and CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Installation
+After cloning the repo, simply run npm i in the root.
 
-Currently, two official plugins are available:
+Usage
+After installation, the script npm run start will initiate the program.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Licencse
+MIT
+
+Links
+[Deployed] (https://shark-quiz-5b65e4b290fa.herokuapp.com/)
