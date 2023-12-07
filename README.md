@@ -1,5 +1,5 @@
 ## Description
-This quiz application was built in order to better understand React. It was built using React, Javascript, and CSS.
+This quiz application was built as a passion project in order to better understand React. It was built using React, Javascript, and CSS.
 
 ## Installation
 After cloning the repo, simply run npm i in the root.
